@@ -2,12 +2,9 @@ package com.androidavanzado.rickandmortyapp.presentation.views
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.androidavanzado.rickandmortyapp.R
 import com.firebase.ui.auth.AuthUI
-import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.auth.FirebaseAuth
 import java.util.*
 
@@ -43,7 +40,7 @@ class AuthenticationActivity : AppCompatActivity() {
                 .createSignInIntentBuilder()
                 .setAvailableProviders(
                     Arrays.asList(
-                        AuthUI.IdpConfig.GoogleBuilder().build(),
+                        /*AuthUI.IdpConfig.GoogleBuilder().build(),*/ //it was commented by the SHA1 key
                         AuthUI.IdpConfig.EmailBuilder().build(),
                     )
                 )
