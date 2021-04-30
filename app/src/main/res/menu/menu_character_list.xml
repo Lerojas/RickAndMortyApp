@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nativa.angular.lite.DescargarTablas.DescargarTablasActivity">
+
+    <item android:id="@+id/syncDown"
+        android:icon="@mipmap/baseline_logout_white_24"
+        app:showAsAction="always"
+        android:title="" />
+</menu>

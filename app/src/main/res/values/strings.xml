@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RickAndMortyApp</string>
+    <string name="label_name">Name: </string>
+    <string name="label_status">Status: </string>
+    <string name="label_species">Species: </string>
+    <string name="label_gender">Gender: </string>
+    <string name="label_location">Location: </string>
+    <string name="label_origin">Origin: </string>
+    <string name="title_activity_authentication">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
